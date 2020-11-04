@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13832745325",
+    "firebase_url": "https://chatapptechnerdtest.firebaseio.com",
+    "project_id": "chatapptechnerdtest",
+    "storage_bucket": "chatapptechnerdtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13832745325:android:0f40f97d8a7f5b65b0ea64",
+        "android_client_info": {
+          "package_name": "com.basemp.chatapptechnerd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13832745325-5tbomspqa58vnpdrbfi9f659gh6qlusg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTVY9wPSwna9AY8YV_z9rZ9Rjn4-Yi7o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13832745325-5tbomspqa58vnpdrbfi9f659gh6qlusg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
