@@ -22,26 +22,69 @@
         android:padding="10dp">
 
 
-
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edUsuarioReg"
+            android:id="@+id/edUserNameReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Usuario">
+            android:hint="Name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtUsuarioReg"
+                android:id="@+id/txtUserNameReg"
+                android:inputType="text"
                 />
 
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edUserLastnameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lastname">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUserLastnameReg"
+                android:inputType="text"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edUserPhoneReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/txtUserPhoneReg"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edUserEmailReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUserEmailReg"
+                android:inputType="textEmailAddress"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/edPasswordReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Clave"
+            android:hint="Password"
             app:passwordToggleEnabled="true"
             >
 
@@ -57,7 +100,7 @@
             android:id="@+id/edPasswordConfimrReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Confirmar Clave"
+            android:hint="Confirm Password"
             app:passwordToggleEnabled="true"
             >
 
@@ -72,7 +115,7 @@
         <Button
             android:layout_width="120dp"
             android:layout_height="40dp"
-            android:text="Registrarse"
+            android:text="Register"
             android:id="@+id/btnRegistrar"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
